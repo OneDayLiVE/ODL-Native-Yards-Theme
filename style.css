@@ -43,6 +43,11 @@ GitHub Branch:    master
 /* =Elements
 -------------------------------------------------------------- */
 
+
+body {
+	background: #e4edd7 url('./img/body-background.png') bottom left repeat-x;
+}
+
 blockquote cite:before {
 	content: '\2014 \00A0';
 }
