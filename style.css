@@ -3,7 +3,7 @@ Theme Name: Native Yards
 Theme URI: https://github.com/cyberchimps/responsive-childtheme/tree/pro-child-theme
 Description: Responsive Pro Child Theme
 Template: cyberchimps
-Version:		2.0.8
+Version:		2.0.10
 
 GitHub Theme URI: https://github.com/OneDayLiVE/ODL-Native-Yards-Theme
 GitHub Branch:    master
@@ -20,26 +20,143 @@ Responsive WordPress Theme, Copyright (C) 2003-2012 Emil Uzelac
 /* =Start From Here
 -------------------------------------------------------------- */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+/* font-family: 'PT Sans', sans-serif; */
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+/* font-family: 'Lobster', cursive; */
+
+body {
+	background: #e4edd7 url('./img/body-background.png') repeat-x center bottom !important;
+	padding-top: 130px;
+	padding-bottom: 160px;
+}
 
 
+#header_section {
+	background-color: #cfd8c4;
+}
+
+div#page_section_section div.container div.container-fluid div#container.row-fluid {
+	background: #FFF;
+}
 
 
+.navbar {
+    margin-bottom: 0px;
+    overflow: visible;
+}
 
 
+.navbar-inner {
+    background: none !important;
+    border: none !important;
+    border-radius: 0px;
+    box-shadow: none !important;
+    min-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar .nav > li > a {
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none !important;
+    
+    color: #35040a; /* text color */
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+
+}
 
 
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background: none !important;
+    box-shadow: none !important;
+    color: #35040a;
+    text-decoration: none;
+}
 
 
+div#sidebar aside.gform_widget {
+	background: #e0e0df;
+}
+
+div#sidebar aside.gform_widget h3.widget-title
+{
+	color: #4f77cf; /* text color */
+	font-family: "Open Sans", sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+
+}
+
+div#sidebar aside.gform_widget div.gform_body ul.gform_fields {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+div#sidebar aside.gform_widget div.gform_body ul.gform_fields li.gfield {
+	list-style: none !important;
+}
+
+.gform_wrapper .gform_validation_container {display:none!important}
 
 
+header.entry-header h1.entry-title {
+	color: #000; /* text color */
+	font-family: "Lobster1.3", 'Lobster', cursive;
+	font-size: 24px;
+	text-align: center;
+}
+
+div.entry-summary {
+	color: #010100; /* text color */
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+
+}
+
+div.entry-summary a {
+	color: #dd3d18;
+}
+
+div#footer-widgets ul.menu,
+div#footer-widgets ul.sub-menu{ 
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+div#footer-widgets ul.menu > li.menu-item,
+div#footer-widgets ul.menu li.menu-item {
+	list-style: none !important;
+	
+}
+
+div#footer-widgets ul.menu li.menu-item > a,
+div#footer-widgets ul.menu li.menu-item > a:hover {
+	color: #35040a; /* text color */
+	font-family: "PT Sans", sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
 
 
-
-
-
-
-
-
+div#footer-widgets ul.menu > li.menu-item > a,
+div#footer-widgets ul.menu > li.menu-item > a:hover {
+	color: #070707; /* text color */
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
 
 
 
@@ -47,3 +164,4 @@ Responsive WordPress Theme, Copyright (C) 2003-2012 Emil Uzelac
 
 
 /*The last 29 days of the month are the hardest."- Nikola Tesla*/
+
